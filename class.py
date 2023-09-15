@@ -6,6 +6,7 @@ class Speed:
         velocity = self.distance / self.time
         return velocity
 
+
 distance = float(input("Введите расстояние (в метрах): "))
 time = float(input("Введите время (в секундах): "))
 speed = Speed(distance, time)
